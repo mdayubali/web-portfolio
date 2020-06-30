@@ -1,0 +1,120 @@
+/**************************************
+ common css
+ ***************************************/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1rem;
+    font-family: 'Montserrat', 'Oswal','Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+section{
+    height: 500px;
+    padding: 0px 90px 90px;
+}
+.container{
+    width: 90%;
+}
+.col-md-6{
+    width: 40%;
+    margin:4%;
+}
+
+/***************************
+    Header section
+**************************/
+.section-bg{
+    background: url('../images/top-banner.png') no-repeat ;
+}
+
+.heading h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.desc .title{
+    font-size: 22px;
+}
+.heading span{
+    color:#FFA500;
+}
+.col-md-6.left{
+    float: left;
+    display: block;
+}
+.col-md-6.right img,.col-md-6.left img{
+    height: 350px;
+    margin: 0px auto;
+}
+.col-md-6.right{
+    float: right;
+    display: block;
+}
+h3.title,p.text,.btn{
+    margin-top: 25px;;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    border:0px;
+    border-radius: 5px;
+    background-image:linear-gradient(to left,#D2691E, Brown);
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.btn:hover{
+    background-image:linear-gradient(to left,#72360b, rgb(184, 41, 41));
+}
+
+.section-bg1{
+    background: url('../images/dream-bg.png') no-repeat right;
+}
+.experice{
+    background: url("../images/exp-bg.png") no-repeat left;
+}
+.experice .heading{
+    text-align: center;
+    display: block;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+.experice h3.title{
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+.experice h4.sub-title{
+    color:#FFA500;
+    font-size: 18px;
+}
+.experice .text,.experice .title, .experice .sub-title{
+    padding: 20px;
+}
+.shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+}
+#one{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#two{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer{
+    background-color: azure;
+}
+
+footer p{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0px;
+}
